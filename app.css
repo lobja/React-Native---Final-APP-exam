@@ -1,0 +1,342 @@
+.prodBody{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.prodFrame{
+    width : 40%;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 6%;
+    border-radius: 20px;
+    background-color: #2e2e2e ;
+    align-items: center;
+}
+.prodIMG{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.prodNameTXT{
+    padding-top: 10px;
+    color: #ffd16e;
+    font-size: 14px;
+}
+.gpriceTXT{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 800;
+    color: #ffd16e;
+}
+
+/* --- PRODUCT DETAILS --- */
+.infoProdBox{
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    background-color: #a7a7a7;
+    padding-top: 5px;
+}
+.infoProdBoxChild{
+    width: 80%;
+    height: auto;
+    
+}
+.infoProdName{
+   font-weight: 700;
+}
+.cartPhoto{
+    width : 150px;
+    height: 150px;
+}
+.MainBody{
+    width: 100%;
+    height: 100%;
+
+}
+
+.infoError{
+    font-size: 20px;
+    color:red;
+}
+.infoPhoto{
+    width: 100%;
+    height: 300px;
+}
+.infoDesc{
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+.infoPrice{
+    padding-top: 25px;
+    padding-left: 40px;
+    font-size: 16;
+    font-weight: 800;
+    width: 200px;
+
+}
+
+
+/* --- CART ITEM PAGE --- */
+
+.cartItemBody{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.cartItemFrame{
+    width: 95%;
+    height: 160px;
+    margin : 10px;
+    padding-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cartItemIMG{
+    width : 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.cartItemName{
+    font-size: 12px;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 10px;
+}
+.cartItemPrice{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.qtyToBuy{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.qtyNum{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cartQtyBody{
+    width: 200px;
+    height: 70px;
+    
+    margin-top: -20px;
+    margin-left : 10px;
+}
+.cartQtyTXT{
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.cartQtyTXTNumb{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffd16e;
+    
+}
+.cartQtyButtons{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    padding-top: 4px;
+    background-color: #ffd16e;
+    border-radius: 50px;
+    z-index: 10;
+    margin-top: 3px;
+    
+}
+.cartButtonMinus{
+    top : 33px;
+    left : 3px;
+   
+}
+.cartButtonPlus{
+   left : 87px;
+   top : -36px;
+  
+}
+.removeButton{
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    padding-top: 5px;
+    border : 1px solid black;
+    left : 160px;
+    top : -73px;
+    border-radius: 50px;
+    background-color: #2e2e2e;
+}
+.cartQtysum{
+    width: 120px;
+    height: 36px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+    background-color: #2e2e2e;
+  
+}
+.messageBox{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+.messageTXT{
+   margin-top: 150px;
+   font-size: 18px;
+   font-weight: 600;
+}
+.backButton{
+    margin-left: -5px;
+}
+
+
+
+.totalBody{
+    margin-top: 10%;
+    width: 95%;
+    border: 1px solid black;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.totalSummary{
+    font-size: 18px;
+    font-weight:700;
+    margin-top: 5px;
+}
+.totalItems{
+    margin-top: 10px;
+}
+.totalPrice{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.ItemsNumber{
+    z-index: 100;
+    color: white;
+    width: 200px;
+    background-color: red;
+}
+
+
+.ActiveprodBTN{
+    width: 150px;
+    height: 40px;  
+    background-color: #ffd16e;
+    align-items: center;
+    border-radius: 7px;
+    padding-top: 7px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.ProductActiveprodBTN{
+    width: 150px;
+    height: 40px; 
+    background-color: #ffd16e;
+    align-items: center;
+    border-radius: 7px;
+    padding-top: 7px;
+    margin-top: 10px;
+}
+.ProductNotActiveprodBTN{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(172, 0, 0);
+    align-items: center;
+    border-radius: 7px;
+    padding-top: 7px;
+    margin-top: 10px;
+}
+
+
+
+
+/* ---LOGIN PAGE--- */
+.loginInfo{
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    padding-top: 20%;
+}
+.loginTXT{
+    font-size: 18px;
+    font-weight: 700;
+}
+.input{
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    
+    border-radius: 10px;
+    padding-left: 15px;
+    background-color: rgb(168, 168, 168);
+}
+.loginBTN{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    align-items: center;
+    background-color: #ffd16e;
+}
+.btnTXT{
+    font-weight: 900;
+    color: black;
+    padding-top: 8px;
+}
+.errorTXT{
+    font-size: 18px;
+    font-weight: 500;
+    color: red;
+}
+.checkBox{
+    margin-top: 20px;
+    margin-left : 10px;
+}
+
+
+/* --- PROFILE PAGE --- */
+.ProfileMainBody{
+    align-items: center;
+}
+.ProfileBody{
+    width: 100%;
+    align-items: center;
+    text-align: left;
+}
+
+.ProfileName{
+   
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    background-color: #2e2e2e ;
+    /* border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%; */
+}
+.ProfileNameTXT{
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffd16e;
+}
+.ProfileInfo{
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profileUserIcon{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.ProfileTXT{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
